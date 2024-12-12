@@ -5,11 +5,17 @@ Ce projet est un système de réservation de tables pour un restaurant, dévelop
 Fonctionnalités Principales: 
 
 📝 Formulaire de réservation interactif avec validation dynamique
+
 📧 Confirmation de réservation simulée via une API REST
+
 🔥 Design personnalisé utilisant du CSS sur mesure
+
 🌐 Backend API avec gestion des routes GET et POST
+
 ✈️Navigation interactive pour l'utilisateur au niveau de la navbar. Bouton de navigation fluide vers les sections de la page. Bouton de retour en haut de la page.
+
 🖥️Implémentation d'une vidéo dans la classe Hero pour décrire l'ambiance du restaurant en plus de la section Gallery que l'utilisateur peut consulter. Carte affichant les images de la galerie avec un effet lightbox.
+
 ⏰Animation de chargement pour les sections en attente de données.
 
 Technologies Utilisées: 
@@ -111,13 +117,13 @@ Améliore l'expérience utilisateur en permettant une transition fluide entre le
 
 Raisons principales:
 
-    Fournit un retour visuel immédiat à l'utilisateur en indiquant la section active et utilisation du défilement pour détecter la position actuelle, créant un comportement interactif.
+  Fournit un retour visuel immédiat à l'utilisateur en indiquant la section active et utilisation du défilement pour détecter la position actuelle, créant un comportement interactif.
 
 - Réactivité mobile:
 
 Raisons principales:
 
-    La navigation adaptative garantit une bonne apparence sur tous les écran et utilisation d'un menu déroulant qui améliore l'érgonomie sur les petits écrans. 
+  La navigation adaptative garantit une bonne apparence sur tous les écran et utilisation d'un menu déroulant qui améliore l'érgonomie sur les petits écrans. 
 
 b) Gestion des données en locale avec Next
 
