@@ -7,11 +7,15 @@ import '../design/hero.css';
 import HeroBtn from '../components/HeroBtn';
 
 export default function Hero() {
-  useEffect(() => {
-    new Glightbox ({
-        selector : '.glightbox',
-    });
-  }, []);
+    useEffect(() => {
+        try {
+          const lightbox = Glightbox({
+            selector: '.glightbox',
+          });
+        } catch (error) {
+          console.error('Error initializing Glightbox:', error);
+        }
+      }, []);
   return (
     <section id ="hero" className = "d-flex align-items-center">
         <div className='container position-relative text-center text-lg-start'

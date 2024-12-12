@@ -19,12 +19,19 @@ export default function Menu() {
   const [data, setData] = useState<MenuItemType[]>([]);
   const [items, setItems] = useState<MenuItemType[]>([]);
 
-  const getMenuData = () => {
-    fetch('/api/menu')
-      .then((res) => res.json())
-      .then((menu: MenuItemType[]) => setData(menu)) 
-      .catch((e) => console.error(e.message));
+  const getMenuData = async () => { 
+    try {
+      const res = await fetch('/api/Menu'); 
+      if (!res.ok) {
+        throw new Error(`Failed to fetch data: ${res.statusText}`);
+      }
+      const menu = await res.json(); 
+      setData(menu); 
+    } catch (error) {
+      console.error('Error fetching menu data:', error);
+    }
   };
+  
 
   useEffect(() => {
     getMenuData();

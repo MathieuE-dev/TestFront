@@ -10,7 +10,9 @@ export default function MenuItem({
     name: string;
     preview : string;
     price: number;
+    category:string;
     ingredients: string;
+    description:string;
 }}) {
   return (
     <div className='col-lg-6 menu-item'>

@@ -19,18 +19,6 @@ export const navs = [
     },
     {
         id : 4,
-        name : 'Specials',
-        target : 'spectials',
-        active : false,
-    },
-    {
-        id : 5,
-        name : 'Events',
-        target : 'events',
-        active : false, 
-    },
-    {
-        id : 6,
         name : 'Gallery',
         target : 'gallery',
         active : false,
@@ -219,31 +207,56 @@ export const filters = [
       active: false,
     },
   ];
-  
-  export const specialsFilters = [
+
+
+  export const booking = [
     {
       id: 1,
-      name: 'Modi sit est',
-      active: true,
-    },
-    {
-      id: 2,
-      name: 'Unde praesentium sed',
-      active: false,
-    },
-    {
-      id: 3,
-      name: 'Pariatur explicabo vel',
-      active: false,
-    },
-    {
-      id: 4,
-      name: 'Nostrum qui quasi',
-      active: false,
-    },
-    {
-      id: 5,
-      name: 'Iusto ut expedita aut',
-      active: false,
+      details: {
+        name: 'Example Name',
+        email: 'info@example.com',
+        phone: '12345678',
+        date: '2024-12-24',
+        time: '11:30',
+        people: 3,
+        message: `Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur`,
+      },
     },
   ];
+
+  
+export const gallery = [
+  {
+    id: 1,
+    image: '/assets/images/gallery/gallery-1.jpg',
+  },
+  {
+    id: 2,
+    image: '/assets/images/gallery/gallery-2.jpg',
+  },
+  {
+    id: 3,
+    image: '/assets/images/gallery/gallery-3.jpg',
+  },
+  {
+    id: 4,
+    image: '/assets/images/gallery/gallery-4.jpg',
+  },
+  {
+    id: 5,
+    image: '/assets/images/gallery/gallery-5.jpg',
+  },
+  {
+    id: 6,
+    image: '/assets/images/gallery/gallery-6.jpg',
+  },
+  {
+    id: 7,
+    image: '/assets/images/gallery/gallery-7.jpg',
+  },
+  {
+    id: 8,
+    image: '/assets/images/gallery/gallery-8.jpg',
+  },
+];
