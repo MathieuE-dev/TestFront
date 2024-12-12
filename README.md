@@ -28,7 +28,7 @@ Styling : CSS personnalisé, Bootstrap
 
 Installation du projet : 
 
-1) Clonez le projet : git clone https => //github.com/mon-compte/restaurant-booking.git
+1) Clonez le projet : git clone https => https://github.com/MathieuE-dev/TestFront.git
 2) Accédez au dossier du projet => cd restaurant-booking
 3) Installez les dépendances => npm install
 4) Installer bootstrap, gliphtbox et swiper => npm i bootstrap bootstrap-icons glightbox swiper
